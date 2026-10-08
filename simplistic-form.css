@@ -1,0 +1,35 @@
+.hiper-link {
+
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    color: black;
+
+    letter-spacing: 4px;
+
+    place-self: center;
+
+    background-color: rgb(255, 174, 0);
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+.options {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.head-title {
+    color: red;
+
+    place-self: center;
+}
