@@ -6,34 +6,63 @@
         <link rel="stylesheet" href="simplistic-form.css"></link>
     </head>
 
+
+    <header class="top-banner">
+        <div class="hiper-link">
+            <img src="images/Logo_Ejemplo.png" class="logo-ex">
+            <a href="index.html"><img src="images/index_button.png" alt="" class="index-img"></a>
+        </div>
+
+    </header>
+
+    <div class="back-square"></div>
+
     <body>
 
-        <div class="hiper-link">
-            <a href="index.html">Index</a>
-        </div>
-
-        <div>
-            <h1 class="head-title">This in a <strong>HTML5</strong> based form</h1>
-            <ul class="options">
-                <h2 class="options-header">Select an option</h2>
-                <li><input type="radio" name="single_option" value="1">Option 1</li>
-                <li><input type="radio" name="single_option" value="2">Option 2</li>
-                <li><input type="radio" name="single_option" value="3">Option 3</li>
-            </ul>
-        </div>
         <hr>
-        <div>
-            <h2>Insert your birth date</h2>
-            <input type="date"></input>
-        </div>
 
         <div>
-            <h3>Enter your mail</h3>
+            <h2 class="title">Insert your birth date</h2>
+            <h2 class="birthday-box"><input type="date"></input></h2>
+        </div>
+
+        <div class="email-box">
+            <h3 class="title">Enter your mail</h3>
             <input name="Email" id="user_mail"type="email"> Email</input>
             <button type="submit">Submit</button>
         </div>
+
+
         
-        <h1><button type="submit">Submit Form</button></h1>
+        <h1><button type="submit" class="clickable">Submit Form</button></h1>
+
+        <hr>
+
+        <form name="base-form" method="post" action="" accept-charset="utf-8">
+
+            <input type="text" placeholder="Nombre/s"></input>
+            <input type="text" placeholder="Apellido"></input>
+
+            <label for="birthdate">Fecha de nacimiento</label>
+            <input type="date" id="birthdate"></input>
+            <input type="number" placeholder="Edad"></input>
+
+            <ul class="options"> Opciones
+                <input type="text" placeholder="Ejemplo"></input>
+                <input type="text" placeholder="Ejemplo"></input>
+            </ul>
+
+            <textarea rows="6" cols="84" placeholder="Presente una breve descripcion acerca de..."></textarea>
+
+            <label>Adjunte archivos de video</label>
+            <input type="file"></input>
+            <input type="file"></input>
+
+            <input name="Email" id="user_mail" type="email"> E-Mail</input>
+            <button type="submit">Enviar formulario</button>
+
+        </form>
+
     </body>
 
 </html>
