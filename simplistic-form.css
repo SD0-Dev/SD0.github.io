@@ -79,14 +79,6 @@ body {
     
 }
 
-.title {
-    color: rgb(0, 0, 0);
-    text-align: center;
-    width: fit-content;
-
-    place-self: center;
-}
-
 .back-square {
     position: fixed;
     z-index: -1;
@@ -99,16 +91,6 @@ body {
     background-color: rgb(192, 237, 222);
     width: 100%;
     min-height: 100%;
-}
-
-.birthday-box {
-    font-size: medium;
-
-    place-self: center;
-}
-
-.email-box {
-    place-self: center;
 }
 
 input {
