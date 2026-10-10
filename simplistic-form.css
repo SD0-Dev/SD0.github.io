@@ -7,6 +7,8 @@
     background-color: rgb(255, 157, 59);
     border-radius: 10px;
     
+    overflow-x: hidden;
+
 }
 
 .hiper-link {
@@ -17,6 +19,9 @@
     color: black;
 
     background-color: rgba(255, 174, 0, 0);
+
+    overflow-x: hidden;
+
 }
 
 .index-img {
@@ -27,6 +32,8 @@
     margin-right: 0px;
     padding: 0px;
     border-radius: 10px;
+
+    overflow-x: hidden;
 
 }
 
@@ -39,6 +46,9 @@
 
     margin: 0px;
     padding: 0px;
+
+    overflow-x: hidden;
+
 }
 
 a {
@@ -69,6 +79,7 @@ body {
 
     display: contents;
     
+    overflow-x: hidden;
 }
 
 .back-square {
