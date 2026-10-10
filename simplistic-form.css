@@ -92,7 +92,7 @@ body {
     
     background-color: rgb(192, 237, 222);
     width: 100%;
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 .birthday-box {
@@ -133,6 +133,7 @@ button {
     width: 20%;
     background-color: burlywood;
 
+    text-decoration: ;
     color: white;
     padding: 12px 18px;
 
