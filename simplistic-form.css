@@ -71,6 +71,12 @@ body {
 
     height: 100%;
     width: 100%;
+    min-width: 100%;
+
+    box-sizing: content-box;
+
+    display: contents;
+    
 }
 
 .title {
