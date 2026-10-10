@@ -119,7 +119,7 @@ input {
     border-style: groove;
     border-radius: 5px;
 
-    display: inline-block;
+    display: flex;
 
     box-sizing: border-box;
 }
@@ -128,6 +128,12 @@ textarea {
     width: 100%;
     font-family:'Courier New', Courier, monospace;
     font-size: 16px;
+
+    padding: 12px 18px;
+    box-sizing: border-box;
+    margin: 8px 0;
+
+    border-radius: 16px;
 }
 
 button {
@@ -152,7 +158,7 @@ input [type=submit]:hover {
 
 form {
     width: 90%;
-    max-width: 200%;
+    max-width: 2000%;
 
     margin: 20px auto;
     padding: 15px;
